@@ -1,0 +1,15 @@
+// sub module build.gradle
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
+
+dependencies {
+
+    compile('org.springframework.boot:spring-boot-starter-webflux')
+
+    compile('org.projectlombok:lombok')
+    annotationProcessor('org.projectlombok:lombok')
+}

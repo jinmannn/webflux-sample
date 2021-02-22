@@ -1,0 +1,4 @@
+rootProject.name = 'webflux-sample'
+include 'web-api'
+include 'common'
+
